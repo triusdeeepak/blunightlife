@@ -1,0 +1,404 @@
+.flex-container a:active, .flexslider a:active, .flex-container a:focus, .flexslider a:focus {
+    outline: none;
+}
+
+.slides, .flex-control-nav, .flex-direction-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.flexslider {
+    float: left;
+    height: auto;
+    overflow: visible !important;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100% !important;
+}
+
+@media \0screen {
+    .flexslider {
+        height: 100%;
+    }
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .flexslider {
+        height: 100%;
+    }
+}
+
+.flexslider.single {
+    height: 100%;
+    margin: 75px 0 0;
+    overflow: hidden !important;
+    position: fixed;
+    width: 100% !important;
+}
+
+.flexslider.single .flex-viewport {
+    overflow: hidden !important;
+}
+
+.flexslider.single .slides {
+    height: calc(100% - 75px);
+}
+
+.flexslider .slides li {
+    display: none;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+}
+
+.flexslider.banner .slides li.slide.one {
+    background-image: url('../images/cities/london/examples/banner/example-1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.flexslider.banner .slides li.slide.two {
+    background-image: url('../images/cities/london/examples/banner/example-2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.flexslider.banner .slides li.slide.three {
+    background-image: url('../images/cities/london/examples/example-1a.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.venue.w-lounge .flexslider .slides li.banner-one {
+    background-image: url('../images/cities/london/examples/example-1a.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.venue.w-lounge .flexslider .slides li.banner-two {
+    background-image: url('../images/cities/london/examples/example-1b.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.venue.w-lounge .flexslider .slides li.banner-three {
+    background-image: url('../images/cities/london/examples/example-1c.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.venue.drama .flexslider .slides li.banner-one {
+    background-image: url('../images/cities/london/drama/drama-1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.venue.drama .flexslider .slides li.banner-two {
+    background-image: url('../images/cities/london/drama/drama-2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.venue.drama .flexslider .slides li.banner-three {
+    background-image: url('../images/cities/london/drama/drama-3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.venue.drama .flexslider .slides li.banner-four {
+    background-image: url('../images/cities/london/drama/drama-4.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.venue.drama .flexslider .slides li.banner-five {
+    background-image: url('../images/cities/london/drama/drama-5.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.venue.drama .flexslider .slides li.banner-six {
+    background-image: url('../images/cities/london/drama/drama-6.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.venue.drama .flexslider .slides li.banner-seven {
+    background-image: url('../images/cities/london/drama/drama-7.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.venue.drama .flexslider .slides li.banner-eight {
+    background-image: url('../images/cities/london/drama/drama-8.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.venue.drama .flexslider .slides li.banner-nine {
+    background-image: url('../images/cities/london/drama/drama-9.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.venue.drama .flexslider .slides li.banner-ten {
+    background-image: url('../images/cities/london/drama/drama-10.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.venue.cuckoo .flexslider .slides li.banner-one {
+    background-image: url('../images/cities/london/cuckoo/cuckoo-1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.venue.cuckoo .flexslider .slides li.banner-two {
+    background-image: url('../images/cities/london/cuckoo/cuckoo-2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.venue.cuckoo .flexslider .slides li.banner-three {
+    background-image: url('../images/cities/london/cuckoo/cuckoo-3.jpg');
+    background-position: center 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.venue.raffles .flexslider .slides li.banner-one {
+    background-image: url('../images/cities/london/raffles/raffles-1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.venue.raffles .flexslider .slides li.banner-two {
+    background-image: url('../images/cities/london/raffles/raffles-2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.venue.raffles .flexslider .slides li.banner-three {
+    background-image: url('../images/cities/london/raffles/raffles-3.jpg');
+    background-position: center 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.venue.raffles .flexslider .slides li.banner-four {
+    background-image: url('../images/cities/london/raffles/raffles-4.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.venue.raffles .flexslider .slides li.banner-five {
+    background-image: url('../images/cities/london/raffles/raffles-5.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.venue.raffles .flexslider .slides li.banner-six {
+    background-image: url('../images/cities/london/raffles/raffles-6.jpg');
+    background-position: center 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.venue.dstrkt .flexslider .slides li.banner-one {
+    background-image: url('../images/cities/london/dstrkt/dstrkt-1.jpg');
+    background-position: center 65%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.venue.dstrkt .flexslider .slides li.banner-two {
+    background-image: url('../images/cities/london/dstrkt/dstrkt-2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.venue.dstrkt .flexslider .slides li.banner-three {
+    background-image: url('../images/cities/london/dstrkt/dstrkt-3.jpg');
+    background-position: center 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.venue.dstrkt .flexslider .slides li.banner-four {
+    background-image: url('../images/cities/london/dstrkt/dstrkt-4.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.flexslider .slides img {
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.flex-pauseplay span {
+    text-transform: capitalize;
+}
+
+.slides:after {
+    content: "\0020";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+html[xmlns] .slides {
+    display: block;
+}
+
+* html .slides {
+    height: 1%;
+}
+
+.no-js .slides > li:first-child {
+    display: block;
+}
+
+.flex-viewport {
+    max-height: 2000px;
+    overflow: visible !important;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.loading .flex-viewport {
+    max-height: 300px;
+}
+
+.flexslider .slides {
+    zoom: 1;
+}
+
+.carousel li {
+    margin-right: 5px;
+}
+
+.flex-direction-nav {
+    *height: 0;
+}
+
+.flex-direction-nav a {
+    background: rgba(252, 252, 252, 0.5);
+    border-radius: 6px;
+    color: #2b3144;
+    cursor: pointer;
+    display: block;
+    font-size: 66px;
+    height: 140px;
+    margin: -70px 0 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    transition: all 0.6s ease 0s;
+    -webkit-transition: all 0.6s ease 0s;
+    width: 60px;
+    z-index: 25;
+}
+
+@media screen and (max-width: 1025px) {
+    .flex-direction-nav a {
+        font-size: 60px;
+        height: 110px;
+        margin: -55px 0 0;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .flex-direction-nav a {
+        font-size: 40px;
+        height: 80px;
+        margin: -40px 0 0;
+    }
+}
+
+.flex-direction-nav i:before {
+    line-height: 140px;
+}
+
+@media screen and (max-width: 1025px) {
+    .flex-direction-nav i:before {
+        line-height: 110px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .flex-direction-nav i:before {
+        line-height: 80px;
+        margin: 0;
+    }
+}
+
+.flex-direction-nav i.flaticon-previous:before {
+    margin: 0 0 0 3px;
+}
+
+.flex-direction-nav i.flaticon-next:before {
+    margin: 0 5px 0 0;
+}
+
+.flex-direction-nav a:hover {
+    background: rgba(252, 252, 252, 1);
+}
+
+.flexslider.single .flex-direction-nav a {
+    background: none;
+    color: rgba(255, 255, 255, 0.25);
+    margin: -130px 0 0;
+}
+
+.flexslider.single .flex-direction-nav a:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+.flex-nav-prev {
+    display: none !important;
+    left: 3%;
+    text-align: left;
+}
+
+.flexslider.single .flex-nav-prev {
+    display: block !important;
+}
+
+.flex-nav-next {
+    right: 3%;
+    text-align: right;
+}
+
+.flex-control-nav {
+    display: none;
+}
